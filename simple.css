@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+.hero-image {
+  background-image:  url("background4.png");
+	
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  
+}
+.row {
+  display: flex;
+
+	
+}
+
+.column {
+  flex: 50%;
+	padding: 1%;
+	
+
+}
+
+.dropbtn {
+padding-top: 0;
+  color: black;
+	background-color: white;
+	
+ 
+  font-size: 16px;
+  border: 1px dotted #07C3C6;
+	background: ;
+	display: inline-block;
+	position: relative;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.dropbtn:after {    
+
+ content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+
+}
+ .dropbtn:hover:after { 
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+	margin-left: 0;
+  display: inline-block;
+	
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+ font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+	background-color: white;
+	
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+	
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {color: aliceblue;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+
+
+.topnav{
+	
+	width:100%;
+	background-color:aliceblue255,255,0.5;
+	height: 30px;
+	padding-left: 5%;
+padding-top: 2%;
+	padding-bottom: 12%;
+}
+
